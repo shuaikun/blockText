@@ -28,6 +28,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UILabel *lable = [[UILabel alloc]init];
+    [self.view addSubview:lable];
+    
+    
     //1:代码创建的
     
 //    LYButton * btn = [LYButton buttonWithType:UIButtonTypeSystem];
